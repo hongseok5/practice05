@@ -10,8 +10,8 @@ public class Prob2 {
 		
 		Bird bird02 = new Sparrow();
 		bird02.setName( "짹짹이" );
-		bird02.fly();
-		bird02.sing();
+		bird02.fly(); // 추상 
+		bird02.sing(); //추상
 		System.out.println( bird02 );
 	}
 }
